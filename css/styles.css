@@ -67,8 +67,9 @@ p {
   text-align: center;
   display: block;
 }
-.about-paragraphs {
-  margin: 15px 0;
+.about-paragraph {
+  margin: 15px 30px;
+  text-align: center;
 }
 
 .email-link {
@@ -142,7 +143,10 @@ p {
     margin: 0 20px;
   }
 
-  img {
+  .img-fluid {
     display: none;
+  }
+  #show-image {
+    display: block;
   }
 }
